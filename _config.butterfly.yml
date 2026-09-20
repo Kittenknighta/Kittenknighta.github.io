@@ -6,4 +6,4 @@ default_top_img: /img/cover.jpg  # 其它页面顶部
 
 # 头像（侧栏/导航栏显示）
 avatar:
-  img: /img/avatar.png
+  img: /img/avatar.jpg
