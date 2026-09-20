@@ -1,0 +1,9 @@
+# Butterfly 主题覆盖配置（根目录此文件优先于 node_modules 内主题默认配置）
+
+# 顶部大图
+index_img: /img/cover.jpg        # 首页顶部
+default_top_img: /img/cover.jpg  # 其它页面顶部
+
+# 头像（侧栏/导航栏显示）
+avatar:
+  img: /img/avatar.png
