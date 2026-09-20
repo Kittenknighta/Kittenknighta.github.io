@@ -1,0 +1,30 @@
+name: Deploy Hexo to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # push 到 main 分支时自动构建并部署
+
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: deploy-pages
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "./public"
+      - name: Deploy
+        uses: actions/deploy-pages@v4
