@@ -23,7 +23,7 @@ aside:
     enable: false
   card_announcement:
     enable: true
-    content: "<a href=\"/messageboard/\"><b>💬 联系站长 · 点我留言</b></a><br>欢迎来到饼的小窝～"
+    content: "欢迎来到饼的小窝～"
 
 # 页脚：保留版权行，隐藏“框架 Hexo | 主题 Butterfly”署名
 footer:
@@ -33,21 +33,11 @@ footer:
   copyright:
     enable: false
 
-# 导航栏菜单（去掉标签；归档改名按时间归档；加联系站长）
+# 导航栏菜单（去掉标签；归档改名按时间归档）
 menu:
   首页: / || fas fa-home
   按时间归档: /archives/ || fas fa-archive
   分类: /categories/ || fas fa-folder
-  联系站长: /messageboard/ || fas fa-comment-dots
-
-# 评论系统：giscus（基于 GitHub Discussions，访客用 GitHub 账号留言）
-comments:
-  use: Giscus
-
-giscus:
-  repo: Kittenknighta/Kittenknighta.github.io
-  repo_id: R_kgDOUik5Tw
-  category_id: DIC_kwDOUik5T84DGFOm
 
 # 隐藏作者卡片统计条里的"标签"项（模板写死无开关，用 CSS 处理）
 inject:
