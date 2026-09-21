@@ -4,6 +4,9 @@
 index_img: /img/cover.jpg        # 首页顶部
 default_top_img: /img/cover.jpg  # 其它页面顶部
 
+# 站点图标（浏览器标签页）
+favicon: /img/avatar.jpg
+
 # 头像（侧栏/导航栏显示）
 avatar:
   img: /img/avatar.jpg
