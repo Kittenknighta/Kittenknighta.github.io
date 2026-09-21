@@ -22,3 +22,11 @@ aside:
   card_announcement:
     enable: true
     content: 欢迎来到饼的小窝～
+
+# 页脚：保留版权行，隐藏“框架 Hexo | 主题 Butterfly”署名
+footer:
+  owner:
+    enable: true
+    since: 2025
+  copyright:
+    enable: false
