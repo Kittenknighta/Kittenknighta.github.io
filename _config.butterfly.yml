@@ -23,7 +23,7 @@ aside:
     enable: false
   card_announcement:
     enable: true
-    content: "欢迎来到饼的小窝～"
+    content: 你好hello
 
 # 页脚：保留版权行，隐藏“框架 Hexo | 主题 Butterfly”署名
 footer:
