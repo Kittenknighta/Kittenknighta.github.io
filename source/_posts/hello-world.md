@@ -3,6 +3,7 @@ title: Hello World —— 博客上线啦
 date: 2026-09-20 12:00:00
 categories:
   - 开始
+cover: /img/covers/开始.jpg
 ---
 
 欢迎来到我的博客！🎉
