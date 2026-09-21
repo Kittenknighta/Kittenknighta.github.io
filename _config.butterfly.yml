@@ -10,3 +10,15 @@ favicon: /img/avatar.jpg
 # 头像（侧栏/导航栏显示）
 avatar:
   img: /img/avatar.jpg
+
+# 侧栏作者卡片（Follow Me 按钮指向自己的 GitHub）
+aside:
+  card_author:
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/Kittenknighta
+  card_announcement:
+    enable: true
+    content: 欢迎来到饼的小窝～
