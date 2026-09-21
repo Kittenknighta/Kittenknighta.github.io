@@ -1,8 +1,6 @@
 ---
 title: Hello World —— 博客上线啦
 date: 2026-09-20 12:00:00
-tags:
-  - 随笔
 categories:
   - 开始
 ---
