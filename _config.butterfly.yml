@@ -48,3 +48,8 @@ giscus:
   repo: Kittenknighta/Kittenknighta.github.io
   repo_id: R_kgDOUik5Tw
   category_id: DIC_kwDOUik5T84DGFOm
+
+# 隐藏作者卡片统计条里的"标签"项（模板写死无开关，用 CSS 处理）
+inject:
+  head:
+    - <style>.site-data a[href="/tags/"]{display:none!important}</style>
