@@ -23,7 +23,7 @@ aside:
     enable: false
   card_announcement:
     enable: true
-    content: 你好hello
+    content: 为寂寞的夜空画上一个月亮
 
 # 页脚：保留版权行，隐藏“框架 Hexo | 主题 Butterfly”署名
 footer:
