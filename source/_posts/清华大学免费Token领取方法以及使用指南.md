@@ -3,6 +3,7 @@ title: 清华大学免费Token领取方法以及使用指南
 date: 2026-09-29 11:57:51
 categories:
   - 时间暂停我偷电瓶
+cover: /img/covers/时间暂停我偷电瓶.jpg
 ---
 
 清华大学免费Token领取方法以及使用指南
